@@ -34,14 +34,14 @@ a:hover {
   color: #1EAEDB;
   text-decoration: none; }
 
-a.download { 
+#btn-save { 
   background: blue; 
   color: #FFF; 
   padding: 8px 16px; 
   margin:8px;
   border-radius: 4px;
 }
-a.download:hover { 
+#btn-save:hover { 
   background: darkblue; 
 }
 
