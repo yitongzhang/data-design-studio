@@ -8,16 +8,27 @@
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-<h1>Data Design Studio</h1>
-<h2>Insert real data, get SVG for Sketch, Figma, Adobe, etc.</h2>
-
-<div id="drawing">
+<div class="meta">
+	<div>
+		<h2>Data Design Studio</h2>
+		<p>Insert real data, get SVG for Sketch, Figma, Adobe, etc.</p>
+	</div>
+	<div>
+		<a id="btn-data" href="https://docs.google.com/spreadsheets/d/1qY6mgkxirE0HrZL5hoc_N8CBxl8eQd9hHoMBCXX_0i4/edit?usp=sharing" target="_BLANK">Edit&nbsp;data</a>
+		<a id="btn-save">Download&nbsp;svg</a>
+	</div>
 	
 </div>
-<a id="btn-save">Download bomb ass svg</a>
+<div class="drawingBg">
+<div id="drawing">
+</div>
+
+</div>
+
 
 
 </body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 <script src="https://fastcdn.org/FileSaver.js/1.1.20151003/FileSaver.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/2.6.4/svg.min.js"></script>
